@@ -13,13 +13,7 @@ It automates key scenarios for the [https://www.saucedemo.com](https://www.sauce
 
 ## 📁 Project Structure
 
-├── pages/ # Page Object Models (LoginPage.ts, ProductsPage.ts)
-├── tests/ # Test specs (login.spec.ts, product.spec.ts)
-├── utils/ # Utility functions and constants
-├── .vscode/ # VS Code debug configuration
-├── playwright.config.ts # Playwright configuration
-├── tsconfig.json # TypeScript config
-├── package.json
+<pre> 📦 playwright-saucedemo ├── 📁 pages # Page Object Models │ ├── LoginPage.ts │ └── ProductsPage.ts ├── 📁 tests # Test Specs │ ├── login.spec.ts │ └── product.spec.ts ├── 📁 utils # Utility Functions (optional) │ └── helpers.ts ├── 📁 .vscode # VS Code Configuration │ └── launch.json ├── playwright.config.ts # Playwright Configuration ├── tsconfig.json # TypeScript Configuration ├── package.json # Project Metadata & Scripts └── README.md # Project Documentation </pre>
 
 
 ---
