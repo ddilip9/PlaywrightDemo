@@ -1,0 +1,23 @@
+{
+  "name": "playwrightdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddilip9/PlaywrightDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddilip9/PlaywrightDemo/issues"
+  },
+  "homepage": "https://github.com/ddilip9/PlaywrightDemo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
