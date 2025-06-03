@@ -9,14 +9,31 @@ It automates key scenarios for the [https://www.saucedemo.com](https://www.sauce
 - Product listing
 - Sorting and filtering
 
----
+### 📁 Project Structure
 
-## 📁 Project Structure
+```
+PLAYWRIGHTDEMO/
+├── .vscode/                  # VS Code settings
+│   └── launch.json
+├── node_modules/             # Node.js dependencies
+├── pages/                    # Page Object Model files
+│   ├── LoginPage.ts
+│   └── ProductsPage.ts
+├── playwright-report/        # Playwright HTML test reports
+│   └── index.html
+├── test-results/             # Raw test output files
+│   └── .last-run.json
+├── tests/                    # Test specs
+│   ├── login.spec.ts
+│   ├── product.spec.ts
+│   └── sorting.spec.ts
+├── package.json              # NPM configuration
+├── package-lock.json         # NPM dependency lock file
+├── playwright.config.ts      # Playwright test config
+├── tsconfig.json             # TypeScript configuration
+└── README.md                 # Project documentation
+```
 
-<pre> 📦 playwright-saucedemo ├── 📁 pages # Page Object Models │ ├── LoginPage.ts │ └── ProductsPage.ts ├── 📁 tests # Test Specs │ ├── login.spec.ts │ └── product.spec.ts ├── 📁 utils # Utility Functions (optional) │ └── helpers.ts ├── 📁 .vscode # VS Code Configuration │ └── launch.json ├── playwright.config.ts # Playwright Configuration ├── tsconfig.json # TypeScript Configuration ├── package.json # Project Metadata & Scripts └── README.md # Project Documentation </pre>
-
-
----
 
 ## 🚀 Getting Started
 
